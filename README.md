@@ -15,7 +15,13 @@ Instructions
 
 Requirements
 ------------
-* `Django`
+
+Tested for
+
+* Python 2.7, 3.4, 3.5
+* Django 1.7.11, 1.8.13, 1.9.6 and 1.10a1
+
+May work otherwise, but you should run tests :P
 
 Case Insensitive ?
 -------------
