@@ -9,9 +9,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-eouia',
+    name='django-yeouia',
     version='0.1.0',
-    packages=['eouia'],
+    packages=['yeouia'],
     install_requires=['Django>=1.9'],
     include_package_data=True,
     license='GPL License',

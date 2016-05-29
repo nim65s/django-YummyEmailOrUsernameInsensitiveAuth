@@ -1,5 +1,7 @@
-Django Email Or Username Insensitive Auth model backend
-=======================================================
+Yummy Email Or Username Insensitive Auth
+=======================================
+model backend for Django
+========================
 
 [![Build Status](https://travis-ci.org/nim65s/django-EmailOrUsernameAuth.svg?branch=master)](https://travis-ci.org/nim65s/django-EmailOrUsernameAuth)
 [![Coverage Status](https://coveralls.io/repos/github/nim65s/django-EmailOrUsernameAuth/badge.svg?branch=master)](https://coveralls.io/github/nim65s/django-EmailOrUsernameAuth?branch=master)
@@ -7,8 +9,8 @@ Django Email Or Username Insensitive Auth model backend
 Instructions
 ------------
 
-* `pip install -e git://github.com/Nim65s/django-EmailOrUsernameInsensitiveAuth.git#egg=django-eouia`
-* Add `AUTHENTICATION_BACKENDS = ['eouia.backends.EmailOrUsernameInsensitiveModelBackend']` to your `settings.py`
+* `pip install -e git://github.com/Nim65s/django-YummyEmailOrUsernameInsensitiveAuth.git#egg=django-yeouia`
+* Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveModelBackend']` to your `settings.py`
 * Enjoy
 
 Requirements

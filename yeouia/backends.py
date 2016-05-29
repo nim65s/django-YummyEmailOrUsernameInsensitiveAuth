@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.backends import ModelBackend
 
 
-class EmailOrUsernameInsensitiveModelBackend(ModelBackend):
+class YummyEmailOrUsernameInsensitiveModelBackend(ModelBackend):
     """
     Backend that authenticates with username or email, case insensitively
     """

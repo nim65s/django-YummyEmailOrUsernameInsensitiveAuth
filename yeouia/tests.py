@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.test import TestCase
 
 
-class EmailOrUsernameInsensitiveModelBackendTests(TestCase):
+class YummyEmailOrUsernameInsensitiveModelBackendTests(TestCase):
     def setUp(self):
         User.objects.create_user('foo', email='foo@example.org', password='foo')
         User.objects.create_user('@nn@', email='anna@example.org', password='@nn@')
