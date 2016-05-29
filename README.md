@@ -10,7 +10,7 @@ Instructions
 ------------
 
 * `pip install -e git://github.com/Nim65s/django-YummyEmailOrUsernameInsensitiveAuth.git#egg=django-yeouia`
-* Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveModelBackend']` to your `settings.py`
+* Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveAuth']` to your `settings.py`
 * Enjoy
 
 Requirements
