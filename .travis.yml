@@ -10,7 +10,7 @@ env:
   - DJANGO_VERSION=1.10
   - DJANGO_VERSION=1.11
 install:
-  - pip install python-coveralls flake8 Django
+  - pip install python-coveralls flake8 Django==$DJANGO_VERSION
 script:
   - coverage run manage.py test
   - flake8 .
