@@ -5,13 +5,13 @@ python:
   - 3.5
   - 3.6
 env:
-  - DJANGO_VERSION=1.9
-  - DJANGO_VERSION=1.10
-  - DJANGO_VERSION=1.11
-  - DJANGO_VERSION=1.12
+  - DJANGO_VERSION_LT=1.9
+  - DJANGO_VERSION_LT=1.10
+  - DJANGO_VERSION_LT=1.11
+  - DJANGO_VERSION_LT=1.12
 install:
   - pip install python-coveralls flake8
-  - pip install --pre "Django<$DJANGO_VERSION"
+  - pip install --pre "Django<$DJANGO_VERSION_LT"
 script:
   - coverage run manage.py test
   - flake8 .
