@@ -10,9 +10,9 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-yeouia',
-    version='0.1.0',
+    version='1.0.0',
     packages=['yeouia'],
-    install_requires=['Django>=1.9'],
+    install_requires=['Django>=1.10'],
     include_package_data=True,
     license='GPL License',
     description='A Django auth backend that works with email or username',
