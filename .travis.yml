@@ -5,8 +5,9 @@ python:
   - 3.5
   - 3.6
 env:
-  - DJANGO_VERSION_LT=1.11
+  - DJANGO_VERSION_LT=1.9
   - DJANGO_VERSION_LT=1.12
+  - DJANGO_VERSION_LT=2.1
 install:
   - pip install python-coveralls flake8 safety
   - pip install --pre "Django<$DJANGO_VERSION_LT"
