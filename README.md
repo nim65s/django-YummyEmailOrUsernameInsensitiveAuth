@@ -9,7 +9,7 @@ model backend for Django
 Instructions
 ------------
 
-* `pip install -e git://github.com/Nim65s/django-YummyEmailOrUsernameInsensitiveAuth.git#egg=django-yeouia`
+* `pip install django-yeouia`
 * Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveAuth']` to your `settings.py`
 * Enjoy
 
@@ -18,8 +18,8 @@ Requirements
 
 Tested for
 
-* Python 2.7, 3.4, 3.5, & 3.6
-* Django 1.10, & 1.11
+* Python 2.7, 3.4, 3.5, 3.6
+* Django 1.11, 2.0
 
 May work otherwise, but you should run tests :P
 
