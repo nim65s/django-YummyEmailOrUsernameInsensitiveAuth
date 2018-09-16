@@ -1,18 +1,17 @@
 language: python
 python:
-  - 2.7
   - 3.4
   - 3.5
   - 3.6
-env:
-  - DJANGO_VERSION_LT=1.12
-  - DJANGO_VERSION_LT=2.1
 install:
-  - pip install python-coveralls flake8 safety
-  - pip install --pre "Django<$DJANGO_VERSION_LT"
+  - pip install pipenv
+  - pipenv install --deploy --dev
 script:
+  - ./manage.py migrate
   - coverage run manage.py test
   - flake8 .
+  - yapf -dr .
   - safety check
+  - pip install "git+https://github.com/${TRAVIS_REPO_SLUG}.git#egg=yeouia"
 after_success:
   - coveralls
