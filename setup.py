@@ -19,9 +19,9 @@ VERSION = [tag for tag in check_output(['git', 'tag', '-l']).decode().split() if
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='ndh',
+    name='django-yeouia',
     version=VERSION,
-    packages=['ndh'],
+    packages=['yeouia'],
     install_requires=REQUIREMENTS,
     include_package_data=True,
     license='BSD',
