@@ -6,7 +6,7 @@ class YummyEmailOrUsernameInsensitiveAuth(ModelBackend):
     """
     Backend that authenticates with username or email, case insensitively
     """
-    def authenticate(self, username=None, password=None, **kwargs):
+    def authenticate(self, request, username=None, password=None, **kwargs):
         UserModel = get_user_model()  # noqa
         if username is None:
             username = kwargs.get(UserModel.USERNAME_FIELD)
