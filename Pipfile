@@ -11,6 +11,8 @@ django = "*"
 python-coveralls = "*"
 safety = "*"
 yapf = "*"
-
-[requires]
-python_version = "3.7"
+setuptools-scm = "*"
+mypy = "*"
+pydocstyle = "*"
+pre-commit = "*"
+django-stubs = "*"
