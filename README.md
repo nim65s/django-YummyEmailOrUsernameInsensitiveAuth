@@ -13,8 +13,8 @@
 
 Tested for
 
-* Python 3.4, 3.5, 3.6, 3.7
-* Django 2.0, 2.1, 2.2
+* Python 3.5, 3.6, 3.7, 3.8
+* Django 2.0, 2.1, 2.2, 3.0
 
 May work otherwise, but you should run tests :P
 
