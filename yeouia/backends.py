@@ -1,12 +1,12 @@
+"""Define main YEOUIA authentification backend."""
 from django.contrib.auth import get_user_model
 from django.contrib.auth.backends import ModelBackend
 
 
 class YummyEmailOrUsernameInsensitiveAuth(ModelBackend):
-    """
-    Backend that authenticates with username or email, case insensitively
-    """
+    """Backend that authenticates with username or email, case insensitively."""
     def authenticate(self, request, username=None, password=None, **kwargs):
+        """Check an authentification request."""
         UserModel = get_user_model()  # noqa
         if username is None:
             username = kwargs.get(UserModel.USERNAME_FIELD)
