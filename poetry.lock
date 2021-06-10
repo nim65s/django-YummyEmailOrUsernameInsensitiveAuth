@@ -59,7 +59,7 @@ python-versions = "*"
 
 [[package]]
 name = "django"
-version = "2.2.19"
+version = "2.2.24"
 description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
 category = "main"
 optional = false
@@ -537,8 +537,8 @@ distlib = [
     {file = "distlib-0.3.1.zip", hash = "sha256:edf6116872c863e1aa9d5bb7cb5e05a022c519a4594dc703843343a9ddd9bff1"},
 ]
 django = [
-    {file = "Django-2.2.19-py3-none-any.whl", hash = "sha256:e319a7164d6d30cb177b3fd74d02c52f1185c37304057bb76d74047889c605d9"},
-    {file = "Django-2.2.19.tar.gz", hash = "sha256:30c235dec87e05667597e339f194c9fed6c855bda637266ceee891bf9093da43"},
+    {file = "Django-2.2.24-py3-none-any.whl", hash = "sha256:f2084ceecff86b1e631c2cd4107d435daf4e12f1efcdf11061a73bf0b5e95f92"},
+    {file = "Django-2.2.24.tar.gz", hash = "sha256:3339ff0e03dee13045aef6ae7b523edff75b6d726adf7a7a48f53d5a501f7db7"},
 ]
 django-stubs = [
     {file = "django-stubs-1.7.0.tar.gz", hash = "sha256:ddd190aca5b9adb4d30760d5c64f67cb3658703f5f42c3bb0c2c71ff4d752c39"},
