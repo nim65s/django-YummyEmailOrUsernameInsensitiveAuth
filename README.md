@@ -1,7 +1,7 @@
 # Yummy Email Or Username Insensitive Auth model backend for Django
 
 [![Build Status](https://travis-ci.org/nim65s/django-YummyEmailOrUsernameInsensitiveAuth.svg?branch=master)](https://travis-ci.org/nim65s/django-YummyEmailOrUsernameInsensitiveAuth)
-[![Coverage Status](https://coveralls.io/repos/github/nim65s/django-EmailOrUsernameAuth/badge.svg?branch=master)](https://coveralls.io/github/nim65s/django-EmailOrUsernameAuth?branch=master)
+[![codecov](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/branch/master/graph/badge.svg?token=APCEYTJRV3)](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth)
 
 ## Instructions
 
