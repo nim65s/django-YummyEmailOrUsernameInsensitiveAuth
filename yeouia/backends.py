@@ -5,6 +5,7 @@ from django.contrib.auth.backends import ModelBackend
 
 class YummyEmailOrUsernameInsensitiveAuth(ModelBackend):
     """Backend that authenticates with username or email, case insensitively."""
+
     def authenticate(self, request, username=None, password=None, **kwargs):
         """Check an authentification request."""
         UserModel = get_user_model()  # noqa

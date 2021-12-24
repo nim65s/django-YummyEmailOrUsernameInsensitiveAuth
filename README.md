@@ -1,20 +1,24 @@
 # Yummy Email Or Username Insensitive Auth model backend for Django
 
-[![Build Status](https://travis-ci.org/nim65s/django-YummyEmailOrUsernameInsensitiveAuth.svg?branch=master)](https://travis-ci.org/nim65s/django-YummyEmailOrUsernameInsensitiveAuth)
+[![PyPI version](https://badge.fury.io/py/django-yeouia.svg)](https://pypi.org/project/django-yeouia)
+[![Tests](https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/actions/workflows/test.yml/badge.svg)](https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/actions/workflows/test.yml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/master.svg)](https://results.pre-commit.ci/latest/github/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/master)
 [![codecov](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/branch/master/graph/badge.svg?token=APCEYTJRV3)](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6737a84239590ddc0d1e/maintainability)](https://codeclimate.com/github/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/maintainability)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Instructions
 
-* `pip install django-yeouia`
-* Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveAuth']` to your `settings.py`
-* Enjoy
+1. `pip install django-yeouia`
+2. Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveAuth']` to your `settings.py`
+3. Enjoy
 
 ## Requirements
 
 Tested for
 
-* Python 3.5, 3.6, 3.7, 3.8, 3.9
-* Django 2.0, 2.1, 2.2, 3.0
+* Python 3.8, 3.9
+* Django 2.2+
 
 May work otherwise, but you should run tests :P
 
