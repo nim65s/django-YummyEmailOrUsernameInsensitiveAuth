@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yeouia"
-version = "3.0.1"
+version = "4.0.0"
 description = "Yummy Email Or Username Insensitive Auth model backend for Django"
 authors = ["Guilhem Saurel <guilhem.saurel@laas.fr>"]
 license = "BSD-2-Clause"

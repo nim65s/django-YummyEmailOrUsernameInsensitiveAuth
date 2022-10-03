@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v4.0.0] - 2022-10-04
+
 - misc tooling upgrade
 - :warning: update package name from `django-yeouia` to `yeouia`. Sorry for the mess…
 
@@ -34,7 +36,8 @@ Since django 1.11, ModelBackend.authenticate takes request as the first position
 
 This version drops support for Django 1.8 & 1.9
 
-[Unreleased]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v3.0.1...master
+[Unreleased]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v4.0.0...master
+[v4.0.0]: https://github.com/nim65s/dmdm/compare/v3.0.1...v4.0.0
 [v3.0.1]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v2.0.0...v3.0.0
 [v2.0.0]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v1.1.1...v2.0.0
