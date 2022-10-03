@@ -10,7 +10,7 @@ repository = "https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAu
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Django = ">=2.2<5.0"
+Django = ">=2.2,<5.0"
 
 [tool.poetry.dev-dependencies]
 coverage = "^5.5"
