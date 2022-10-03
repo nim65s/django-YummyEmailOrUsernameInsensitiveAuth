@@ -1,6 +1,6 @@
 # Yummy Email Or Username Insensitive Auth model backend for Django
 
-[![PyPI version](https://badge.fury.io/py/django-yeouia.svg)](https://pypi.org/project/django-yeouia)
+[![PyPI version](https://badge.fury.io/py/yeouia.svg)](https://pypi.org/project/yeouia)
 [![Tests](https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/actions/workflows/test.yml/badge.svg)](https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/actions/workflows/test.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/master.svg)](https://results.pre-commit.ci/latest/github/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/master)
 [![codecov](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/branch/master/graph/badge.svg?token=APCEYTJRV3)](https://codecov.io/gh/nim65s/django-YummyEmailOrUsernameInsensitiveAuth)
@@ -9,7 +9,7 @@
 
 ## Instructions
 
-1. `pip install django-yeouia`
+1. `pip install yeouia`
 2. Add `AUTHENTICATION_BACKENDS = ['yeouia.backends.YummyEmailOrUsernameInsensitiveAuth']` to your `settings.py`
 3. Enjoy
 
