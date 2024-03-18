@@ -1,4 +1,5 @@
 """Django application for YEOUIA."""
+
 from django.apps import AppConfig
 
 
