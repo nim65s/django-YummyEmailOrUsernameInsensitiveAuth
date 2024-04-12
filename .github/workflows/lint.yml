@@ -4,19 +4,15 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - run: pipx install poetry
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - name: setup
-        run: |
-          python -m pip install -U poetry
-          poetry config virtualenvs.create false --local
-          poetry install --no-interaction --no-ansi
-      - run: ruff check .
-      - run: ruff format .
-      - run: mypy .
-      - run: pydocstyle
-      - run: safety check
+      - run: poetry install --with-dev
+      - run: poetry run ruff check .
+      - run: poetry run ruff format .
+      - run: poetry run mypy .
+      - run: poetry run pydocstyle
+      - run: poetry run safety check
       - run: poetry check
