@@ -1,10 +1,9 @@
 """Django settings for test_yeouia project."""
 
-import os
-from typing import List
+from pathlib import Path
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).parent.parent.resolve()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -15,7 +14,7 @@ SECRET_KEY = "4g_y)50+q2l-w&iq4pyyax-&df@c&6o6+jbno@bwz$)gvxoprm"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS: List[str] = []
+ALLOWED_HOSTS: list[str] = []
 
 # Application definition
 
@@ -65,7 +64,7 @@ WSGI_APPLICATION = "test_yeouia.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
