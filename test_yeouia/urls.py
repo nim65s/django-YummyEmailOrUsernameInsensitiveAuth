@@ -1,4 +1,5 @@
 """URL Configuration for YEOUIA test project."""
+
 from django.urls import path
 from django.contrib import admin
 
