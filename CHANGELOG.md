@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v4.0.0] - 2022-10-04
 
+- drop support for Python < 3.10
 - misc tooling upgrade
 - :warning: update package name from `django-yeouia` to `yeouia`. Sorry for the mess…
 
