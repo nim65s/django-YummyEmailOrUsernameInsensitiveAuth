@@ -14,8 +14,8 @@ jobs:
           python -m pip install -U poetry
           poetry config virtualenvs.create false --local
           poetry install --no-interaction --no-ansi
-      - run: flake8 .
-      - run: black .
+      - run: ruff check .
+      - run: ruff format .
       - run: mypy .
       - run: pydocstyle
       - run: safety check
