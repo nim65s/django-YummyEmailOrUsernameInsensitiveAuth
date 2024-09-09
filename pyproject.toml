@@ -13,19 +13,19 @@ repository = "https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAu
 version = "4.0.0"
 
 [tool.poetry.dependencies]
-Django = ">=5.0.4"
+Django = ">=5.1.1"
 python = "^3.10"
 
 [tool.poetry.group.dev]
 optional = true
 
 [tool.poetry.group.dev.dependencies]
-coverage = {extras = ["toml"], version = "^7.4.4"}
-django-stubs = "^4.2.7"
-mypy = "^1.9.0"
-pre-commit = "^3.7.0"
+coverage = {extras = ["toml"], version = "^7.6.1"}
+django-stubs = "^5.0.4"
+mypy = "^1.11.2"
+pre-commit = "^3.8.0"
 ruff = "^0.1.14"
-safety = "^3.1.0"
+safety = "^3.2.7"
 
 [tool.ruff]
 extend-exclude = ["migrations"]
