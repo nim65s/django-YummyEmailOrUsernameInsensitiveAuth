@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- added support for python 3.13
+- renamed main branch
+
 ## [v4.0.0] - 2022-10-04
 
 - drop support for Python < 3.10
@@ -37,7 +40,7 @@ Since django 1.11, ModelBackend.authenticate takes request as the first position
 
 This version drops support for Django 1.8 & 1.9
 
-[Unreleased]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v4.0.0...master
+[Unreleased]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v4.0.0...main
 [v4.0.0]: https://github.com/nim65s/dmdm/compare/v3.0.1...v4.0.0
 [v3.0.1]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/nim65s/django-YummyEmailOrUsernameInsensitiveAuth/compare/v2.0.0...v3.0.0
